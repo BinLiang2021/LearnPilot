@@ -417,18 +417,11 @@ class CustomAgent:
 
 ## 📞 联系我们
 
-- 📧 Email: [your-email@example.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/your-repo/LearnPilot/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-repo/LearnPilot/discussions)
+- 📧 Email: [bin.liangmathematicsstudent@gmail.com]
+- 🐛 Issues: [GitHub Issues](https://github.com/BinLiang2021/LearnPilot/issues)
+- 💬 Discussions: TODO
 
 ---
 
-<div align="center">
-
-**⭐ 如果 LearnPilot 对您有帮助，请给个星标支持我们！**
-
-Made with ❤️ by the LearnPilot Team
-
-</div>
 
 
