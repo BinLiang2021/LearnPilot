@@ -1,0 +1,14 @@
+openai-agents
+openai
+python-dotenv
+numpy
+jupyter
+arxiv
+feedparser
+loguru
+aiohttp
+aiofiles
+tabulate
+marker-pdf
+networkx 
+faiss-cpu

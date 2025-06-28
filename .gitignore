@@ -1,0 +1,8 @@
+
+# Custom
+user_data/
+scripts/
+.env
+**/.vscode/
+**/__pycache__/
+**/logs/

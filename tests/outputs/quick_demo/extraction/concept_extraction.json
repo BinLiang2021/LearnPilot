@@ -1,0 +1,154 @@
+{
+  "extractions": {
+    "paper_1": {
+      "output": {
+        "core_concepts": [
+          "Transformer模型",
+          "多头自注意力(multi-head self-attention)",
+          "自注意力机制(self-attention mechanism)",
+          "编码器-解码器注意力层(encoder-decoder attention layers)",
+          "序列到序列模型(sequence-to-sequence models)",
+          "缩放点积注意力(scaled dot-product attention)",
+          "损失函数正则化技术(e.g., label-smoothing)"
+        ],
+        "supporting_concepts": [
+          "深度学习(Deep Learning)",
+          "神经网络(Neural Networks)",
+          "自然语言处理(NLP)",
+          "自回归模型(auto-regressive models)",
+          "序列到序列学习(sequence-to-sequence learning)",
+          "优化器(Optimizers)"
+        ],
+        "prerequisites": [
+          {
+            "level": "intermediate",
+            "name": "矩阵运算和线性代数"
+          },
+          {
+            "level": "intermediate",
+            "name": "深度学习基础知识"
+          },
+          {
+            "level": "intermediate",
+            "name": "序列模型和序列到序列学习的概念"
+          },
+          {
+            "level": "beginner",
+            "name": "自然语言处理中的词嵌入和语言建模知识"
+          }
+        ],
+        "difficulty_assessment": "advanced",
+        "conceptual_complexity": "high",
+        "estimated_learning_time": 240,
+        "concept_relationships": [
+          {
+            "concept1": "Transformer模型",
+            "relationship": "使用",
+            "concept2": "多头自注意力(multi-head self-attention)"
+          },
+          {
+            "concept1": "Transformer模型",
+            "relationship": "依赖于",
+            "concept2": "自注意力机制(self-attention mechanism)"
+          },
+          {
+            "concept1": "缩放点积注意力(scaled dot-product attention)",
+            "relationship": "是",
+            "concept2": "实现多头自注意力的具体方法"
+          }
+        ],
+        "knowledge_domains": [
+          "自然语言处理",
+          "深度学习",
+          "机器学习"
+        ]
+      },
+      "usage": {
+        "input_tokens": 1724,
+        "output_tokens": 353,
+        "total_tokens": 2077,
+        "estimated_cost_usd": 0.00784
+      }
+    }
+  },
+  "cross_paper_analysis": {
+    "output": {
+      "common_concepts": [
+        "Transformer模型",
+        "多头自注意力(multi-head self-attention)",
+        "自注意力机制(self-attention mechanism)",
+        "编码器-解码器注意力层(encoder-decoder attention layers)",
+        "序列到序列模型(sequence-to-sequence models)",
+        "缩放点积注意力(scaled dot-product attention)"
+      ],
+      "concept_hierarchy": [
+        {
+          "level": "1",
+          "concepts": [
+            "深度学习(Deep Learning)",
+            "神经网络(Neural Networks)",
+            "自然语言处理(NLP)",
+            "机器学习(Machine Learning)"
+          ]
+        },
+        {
+          "level": "2",
+          "concepts": [
+            "Transformer模型",
+            "多头自注意力(multi-head self-attention)",
+            "序列到序列模型(sequence-to-sequence models)"
+          ]
+        },
+        {
+          "level": "3",
+          "concepts": [
+            "自注意力机制(self-attention mechanism)",
+            "缩放点积注意力(scaled dot-product attention)",
+            "自回归模型(auto-regressive models)"
+          ]
+        }
+      ],
+      "learning_dependencies": [
+        {
+          "prerequisite_paper": "paper_1",
+          "dependent_paper": "paper_2",
+          "reason": "从自然语言处理的理论如Transformer的基础逐步进入领域应用"
+        }
+      ],
+      "recommended_sequence": [
+        "基础概念：基础学习-> 深度学习-> 自然语言处理",
+        "模型结构: 神经网络-> Transformer结构-> 细节机制"
+      ],
+      "concept_clusters": [
+        {
+          "concept": "维度-作用的知识集群",
+          "related_concepts": [
+            "自注意力机制",
+            "点积技术"
+          ]
+        }
+      ],
+      "knowledge_graph_edges": [
+        {
+          "source": "Transformer模型",
+          "target": "深度学习(Deep Learning)",
+          "relationship": "实现"
+        },
+        {
+          "source": "多头自注意力",
+          "target": "Transformer",
+          "relationship": "核心模块"
+        }
+      ]
+    },
+    "usage": {
+      "input_tokens": 857,
+      "output_tokens": 346,
+      "total_tokens": 1203,
+      "estimated_cost_usd": 0.0056025
+    }
+  },
+  "paper_ids": [
+    "paper_1"
+  ]
+}
