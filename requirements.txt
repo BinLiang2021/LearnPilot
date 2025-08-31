@@ -12,3 +12,12 @@ tabulate
 marker-pdf
 networkx 
 faiss-cpu
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+sqlalchemy
+alembic
+pyjwt
+bcrypt
+passlib

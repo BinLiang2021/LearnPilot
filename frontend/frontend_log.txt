@@ -1,0 +1,59 @@
+
+> learnpilot-frontend@1.0.0 dev
+> vite
+
+
+  VITE v5.4.19  ready in 118 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.1.157:3000/
+  ➜  Network: http://169.254.3.1:3000/
+  ➜  Network: http://100.109.181.117:3000/
+  ➜  Network: http://10.244.123.0:3000/
+  ➜  Network: http://172.19.0.1:3000/
+9:49:16 AM [vite] hmr update /src/pages/SimpleLoginPage.tsx, /src/index.css
+9:49:24 AM [vite] hmr update /src/pages/SimpleRegisterPage.tsx, /src/index.css
+9:55:05 AM [vite] hmr update /src/pages/SimpleDashboardPage.tsx, /src/index.css
+9:55:27 AM [vite] hmr update /src/pages/SimpleDashboardPage.tsx, /src/index.css
+9:55:39 AM [vite] hmr update /src/pages/SimpleDashboardPage.tsx, /src/index.css
+9:55:52 AM [vite] hmr update /src/pages/SimpleDashboardPage.tsx, /src/index.css
+9:57:11 AM [vite] hmr update /src/SimpleApp.tsx, /src/index.css
+9:57:12 AM [vite] Internal server error: Failed to resolve import "./pages/SimpleUploadPage" from "src/SimpleApp.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/bin.liang/Documents/03-open-source/LearnPilot/frontend/src/SimpleApp.tsx:6:29
+  19 |  import SimpleRegisterPage from "./pages/SimpleRegisterPage";
+  20 |  import SimpleDashboardPage from "./pages/SimpleDashboardPage";
+  21 |  import SimpleUploadPage from "./pages/SimpleUploadPage";
+     |                                ^
+  22 |  const SimpleApp = () => {
+  23 |    return /* @__PURE__ */ jsxDEV("div", { className: "min-h-screen", children: /* @__PURE__ */ jsxDEV(Routes, { children: [
+      at TransformPluginContext._formatError (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+9:57:13 AM [vite] Internal server error: Failed to resolve import "./pages/SimpleUploadPage" from "src/SimpleApp.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/bin.liang/Documents/03-open-source/LearnPilot/frontend/src/SimpleApp.tsx:6:29
+  19 |  import SimpleRegisterPage from "./pages/SimpleRegisterPage";
+  20 |  import SimpleDashboardPage from "./pages/SimpleDashboardPage";
+  21 |  import SimpleUploadPage from "./pages/SimpleUploadPage";
+     |                                ^
+  22 |  const SimpleApp = () => {
+  23 |    return /* @__PURE__ */ jsxDEV("div", { className: "min-h-screen", children: /* @__PURE__ */ jsxDEV(Routes, { children: [
+      at TransformPluginContext._formatError (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49258:41)
+      at TransformPluginContext.error (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49253:16)
+      at normalizeUrl (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64291:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64423:39
+      at async Promise.all (index 7)
+      at async TransformPluginContext.transform (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:64350:7)
+      at async PluginContainer.transform (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:49099:18)
+      at async loadAndTransform (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:51977:27)
+      at async viteTransformMiddleware (file:///home/bin.liang/Documents/03-open-source/LearnPilot/frontend/node_modules/vite/dist/node/chunks/dep-C6uTJdX2.js:62105:24)
+9:57:52 AM [vite] page reload src/pages/SimpleUploadPage.tsx.tmp.1458034.1756648672952
